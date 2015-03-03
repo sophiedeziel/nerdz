@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Sophie Déziel"]
   s.email       = ["courrier@sophiedeziel.com"]
   s.homepage    = "http://nerdz.rocks"
-  s.summary     = "TODO: Summary of Nerdz."
-  s.description = "TODO: Description of Nerdz."
+  s.summary     = "Summary of Nerdz."
+  s.description = "Description of Nerdz."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
@@ -21,12 +21,8 @@ Gem::Specification.new do |s|
   # s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
-  s.add_development_dependency 'combustion', '~> 0.5.3'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rspec-rails'
-  s.add_development_dependency 'guard'
-  s.add_development_dependency 'guard-rspec'
   s.add_development_dependency 'factory_girl_rails'
-  s.add_development_dependency 'simplecov'
 
 end
